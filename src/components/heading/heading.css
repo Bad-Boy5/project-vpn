@@ -1,0 +1,10 @@
+.main-heading{
+    font-family:'Inter',sans-serif;
+max-width: 618px;
+    max-height: 128px;
+    font-size: 3.8vw;
+    line-height: 50px;
+    color:black;
+    font-weight: 1000 !important;
+}
+  

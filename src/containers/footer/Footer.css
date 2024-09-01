@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Clashh Display';
+    src: url('../../../public/OTF/ClashDisplay-Regular.otf') format('truetype'); /* Adjust the path as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.footer-container{
+    width:100% ;
+ margin-top: 8pc;
+}
+.footer-data{
+    width: 83%;
+    margin: auto;
+}
+.footer-upper{
+    display: flex;
+}
+
+
+
+/* this is for first main container in which logo included */
+
+
+@font-face {
+    font-family: 'ClasHDisplay';
+    src: url('../../../public/OTF/ClashDisplay-Semibold.otf') format('truetype'); /* Adjust the path as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+.para-container11{
+    margin: 1pc auto;
+}
+.logo-sec11{
+    display: flex;
+align-items: center;
+font-family: "ClasHDisplay";
+
+}
+.logo-img1122{
+    display: flex;
+    margin-right: 0.5pc;
+}
+
+
+.lower-data .para-container .logo-txt{
+    font-family: "Clashh Display";
+    font-weight: 600;
+}
+
+
+.labels-sec{
+    display: flex;
+    position: relative;
+    top: -9%;
+    height: 60px;
+}
+#name{
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Clashh Display";
+    padding:0 10px;
+    min-height: 100%;
+}
+.sub-footer-cont .main-btn{
+  min-height: 100%;
+  position:absolute;
+  right: 0%;
+}
+
+
+/* ading the btn sec  */
+.btnem{
+    white-space: nowrap;
+    font-size: 1.4vw;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    background-color: black ;
+    display: flex;
+    justify-content: center;
+ align-items: center;
+    border-radius: 4px;
+     padding:0 30px;
+     cursor: pointer;
+     transition: all ease-in-out 0.3s;
+     border: 1px solid black;
+     height: 60px;
+    
+    }
+    .btnem:hover{
+        background-color: white;
+        color: black;
+        border:1px solid #FF5555;
+    }
+
+
+
+
+
+
+
+.footer-container hr{
+width: 80%;
+margin:2pc auto;
+
+}
+.footer-bottom{
+    text-align: center;
+  margin-bottom: 5pc;
+  font-family: "Clashh Display";
+  font-weight: 600;
+
+}
+
+
+
+.mainb-for-resp1{
+    display: flex;
+    width: 50%;
+}
+.mainb-for-resp2{
+    display: flex;
+    width: 50%;
+}
+
+.mainb-for-resp1 .sub-footer-cont{
+    width: 25%;
+}
+
+.mainb-for-resp2 .email-cont{
+width: 65%;
+}
+.pcont{
+    width: 40%;
+}
+.cont22{
+min-width: 40%;
+}
+
+.l-lag{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1184px){
+
+.footer-upper{
+    flex-direction: column;
+}
+.mainb-for-resp1{
+    width: 100%;
+    margin-bottom: 2pc;
+}
+.mainb-for-resp2{
+    width: 80%;
+}
+.labels-sec{
+    max-width: 70%;
+}
+}
+
+
+
+@media screen and (max-width: 800px){
+.labels-sec{
+min-width: 50%;
+}
+.mainb-for-resp2{
+    width: 100%;
+}
+.email-cont{
+    min-width: 40%;
+}
+}
+
+
+@media screen and (max-width: 711px){
+    .labels-sec{
+        min-width: 100%;
+    }
+}
+
+    @media screen and (max-width: 575px){
+.l-lag{
+    display: none;
+}
+.mainb-for-resp2{
+    width: 100%;
+}
+.sub-footer-cont{
+    min-width: 50%;
+}
+.pcont{ 
+    min-width: 20%;
+}
+.email-cont{
+    min-width: 60%;
+}
+}
+
+@media screen and (max-width: 453px){
+    .mainb-for-resp1{
+        flex-direction: column;
+    }
+    .mainb-for-resp2{
+        flex-direction: column;
+    }
+    .sub-footer-cont{
+        margin-bottom: 2pc;
+        min-width: 100%;
+    }
+}

@@ -1,0 +1,305 @@
+
+.main_cont {
+  width: 91%;
+  margin-left: auto;
+  display: flex;
+  height: auto;
+  padding-bottom: 3pc;
+}
+
+.left_main_sec {
+  min-width: 47%;
+  position: relative;
+}
+
+/* adding the heading of the left section  */
+.main-con-heading {
+  font-family:"Inter";
+  max-width: 618px;
+  min-height: 128px;
+  font-size: 3.8vw;
+  line-height: 64px;
+  font-weight: 700;
+  color: black;
+  width: 80%;
+}
+
+
+
+/* adding the styling of the paragraph secttion */
+.para1 {
+  font-family: "Clash Display";
+  opacity: 0.5;
+  margin: 1pc 0;
+}
+.para-sec {
+  display: flex;
+  text-align: unset;
+  justify-content: unset;
+}
+
+/* adding buttons  */
+.main_buttons_sec {
+  display: flex;
+}
+.btn1 {
+  margin-right: 1pc !important;
+}
+.btn1 button {
+  flex-direction: row-reverse;
+  padding: 0 20px;
+}
+.btn1 button .btn-txt {
+  margin-right: 1pc !important;
+  padding: 0;
+  margin: 0;
+}
+.btn2 button {
+  background-color: unset;
+  color: black;
+  font-family: "Clash Display";
+  border: none;
+}
+.left-data {
+  margin-top: 5pc;
+}
+.img-g {
+  position: absolute;
+  top: -3%;
+  left: 10%;
+  opacity: 0.7;
+  z-index: -50;
+  width: 80%;
+}
+
+.blackst4 {
+  position: absolute;
+  bottom: 8%;
+  right: 0;
+  z-index: -150;
+}
+
+.right_main_sec {
+  min-width: 50%;
+  position: relative;
+}
+
+.main-circ-cont {
+  width: 100%;
+  display: flex;
+  z-index: -2;
+}
+.main-circ-cont img {
+  min-height: 100%;
+  max-width: 100%;
+}
+.mainmd {
+  width: 80%;
+  position: absolute;
+  height: auto;
+  top: 16%;
+  left: 20%;
+
+}
+.maintop {
+  z-index: 1;
+  width: 100%;
+  min-height: 54px;
+  position: absolute;
+  top: -7%;
+  left: -21%;
+}
+.medium_main{
+  
+  width: 94%;
+  position: absolute;
+  height: auto;
+  top: 8%;
+  left: 3%;
+}
+/* making the star :// */
+.blackst3 {
+  bottom:7%;
+  left: 22%;
+  transform: rotate(-170deg);
+}
+
+.blackst6 {
+  top: 3%;
+  left: -19%;
+  transform: rotate(-170deg);
+}
+
+/* adding media qury for the tablets and other large screens  */
+@media screen and (max-width: 1177px) {
+  .blackst3,
+  .blackst6 {
+    display: none;
+  }
+}
+
+/* adding for the tab and the laptops  */
+@media screen and (max-width: 1024px) {
+  .img-g {
+    display: none;
+  }
+  .main-con-heading{
+  line-height: 45px;
+  }
+  .blackst_mob{
+    display: none;
+  }
+  .blackst_mob2{
+    display: none;
+  }
+
+}
+/* adding for the tab and the laptops  */
+@media screen and (max-width: 800px) {
+  .main_cont {
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 1pc;
+  }
+
+  .right_main_sec {
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-circ-cont {
+  width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .main-circ-cont img {
+    min-height: 50%;
+    max-width: 50%;
+  }
+  .mainmd {
+    max-width: 40% !important;
+    height: 113%;
+    right: 0%;
+    bottom: 0%;
+    left: 38.5%;
+    top: 21%;
+  }
+  .medium_main {
+    width: 94%;
+    position: absolute;
+    height: auto;
+    top: 9%;
+    left: 28%;
+}
+  .maintop {
+    z-index: 1;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: -3%;
+    left: 17%;
+  }
+
+  .left_main_sec {
+    min-width: 100%;
+    position: relative;
+  }
+  .left-data {
+    margin-top: 0pc;
+    width: 80%;
+    padding-top: 4pc;
+    margin: auto;
+  }
+  .main-heading {
+    line-height: normal;
+    width: 100%;
+    font-size: 6vw;
+    line-height: normal;
+  }
+  .main-con-heading{
+    min-height: 80px;
+    line-height: 40px;
+  }
+
+  .btn-txt {
+    font-size: 2.5vw;
+  }
+  .para1 {
+    font-size: 3vw;
+    margin: 1pc 0;
+  }
+  .blackst4{
+width: 60%;
+bottom: 0%;
+right: 20%;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .main_buttons_sec {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn1 {
+    margin-bottom: 1pc;
+  }
+  .btn-txt {
+    font-size: 3.5vw;
+  }
+  .main-con-heading{
+    line-height: 30px;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 454px) {
+  .main_buttons_sec {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn1 {
+    margin-bottom: 1pc;
+  }
+  .btn-txt {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .para1 {
+    min-width: 100% !important;
+  }
+  .circlesss {
+    min-width: 100%;
+  }
+.main-con-heading{
+  width: 100%;
+}
+  .maintop {
+    z-index: 1;
+    min-width: 95%;
+    min-height: 100%;
+    position: absolute;
+    top: -7%;
+    left: -10%;
+}
+  .mainmd {
+
+      right: 0%;
+      bottom: 0%;
+      left: 28%;
+      top: 19%;
+      min-width: 75%;
+      max-height: 100%;
+      position: absolute;
+}
+.medium_main {
+  min-width: 90%;
+  position: absolute;
+  height: auto;
+  top: 10%;
+  left: 13%;
+}
+}
