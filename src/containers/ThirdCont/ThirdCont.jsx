@@ -13,7 +13,7 @@ function ThirdCont() {
   
   return (
 <>
-    <div className='pt-[5pc] second-main sec-main-2 relative overflow-hidden'>
+    <div className='pt-[3pc] second-main sec-main-2 relative overflow-hidden'>
     <div className="right-txt mr-[3pc]">
       <img src={blackst} alt="" className=' w-[6%] absolute -bottom-9 left-[70%] rotate-[45deg] '/>
     <div className="right-txt-data right123">

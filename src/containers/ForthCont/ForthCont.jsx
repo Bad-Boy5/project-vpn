@@ -10,7 +10,7 @@ function ForthCont() {
 
   return (
 
-    <div className='second-main min-h-[719px] py-16'>
+    <div className='second-main min-h-[700px] '>
     <div className="left-img left-img2">
     <img src={circ} alt="" className='circless' />
   <img src={iphonee} alt=""className='absolute iphonee2222' />

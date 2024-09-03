@@ -12,7 +12,7 @@ function Second() {
 
 
   return (
-    <div className="second-main mb-[3pc] overflow-hidden">
+    <div className="second-main pb-[3pc] overflow-hidden">
       <div className="left-img ">
         <img src={circles} alt="" className="circles w-full" />
         <img src={mobR} alt="" className="mobR absolute" />

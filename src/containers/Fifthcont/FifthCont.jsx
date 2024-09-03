@@ -16,7 +16,7 @@ function FifthCont() {
   return (
     <>
     <div className='main-section-c'>
-    <div className='headingcontainer w-2/4 flex items-center flex-col my-16' >
+    <div className='headingcontainer w-2/4 flex items-center flex-col' >
      <div className="logoSec mb-4"><img src={AAA} alt="" /></div>
     <div className="main-heading flex justify-center"><Heading heading={headingss} /></div>
     </div>
